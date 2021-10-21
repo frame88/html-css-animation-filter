@@ -13,21 +13,23 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 5s;
 }
 
 .ex-2-square:active {
     width: 100%;
-    animation-name: try;
+    
 }
 
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: background-color;
+    transition: 5s;
 }
 
 .ex-3-square:hover {
-    transition: background-color 10s;
     border-radius: 10em;
 }
 
@@ -49,9 +51,14 @@
 .ex-5-square:hover {
     width: 200px;
     height: 200px;
+    transition: 1.5s;
 }
 
 .ex-5-square:active {
     width: 50px;
     height: 50px;
+}
+
+.ex-6-img {
+
 }
