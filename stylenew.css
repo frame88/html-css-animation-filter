@@ -1,0 +1,20 @@
+.ex-1-square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+.ex-1-square:hover {
+    background: red;
+    transition: background-color 10s;
+}
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-2-square:hover{
+
+}
