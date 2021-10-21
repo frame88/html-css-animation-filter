@@ -31,4 +31,12 @@
     border-radius: 10em;
 }
 
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;}
 
+.ex-4-square:hover {
+    background: none;
+    transition: background-color 10s;
+}
